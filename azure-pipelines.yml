@@ -27,13 +27,4 @@ stages:
         tags: |
           $(tag)
 
-stages:
-- stage: Deploy
-  displayName: Deploy
-  jobs:
-    - job: Deploy
-    displayName: Deploy
-    pool:
-     vmImage: ubuntu-latest
-    steps:
-    -echo: "Deploy my-docker-app"
+
