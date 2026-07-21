@@ -35,5 +35,3 @@ stages:
       vmImage: ubuntu-latest
     steps
       - script:echo"deploying application"
-
-
