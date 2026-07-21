@@ -33,5 +33,4 @@ stages:
     displayName: Deploy
     pool:
       vmImage: ubuntu-latest
-    steps
-      - script:echo 'deploying application'
+ 
