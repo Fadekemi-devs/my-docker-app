@@ -34,4 +34,4 @@ stages:
     pool:
       vmImage: ubuntu-latest
     steps
-      - script:echo"deploying application"
+      - script:echo 'deploying application'
